@@ -13,6 +13,7 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+
 }
 
 #top{
@@ -25,6 +26,31 @@ body{
   margin: 0;
   position: absolute;
   z-index: -1;
+}
+
+#container{
+  width: 32rem;
+  margin: auto;
+}
+
+#container h1{
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: var(--purple);
+  letter-spacing: 0.3rem;
+}
+
+#container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 0.875rem;
+  color: var(--light-grey);
+}
+
+#container p{
+  font-size: 4.5rem;
 }
 
 #bottom{
